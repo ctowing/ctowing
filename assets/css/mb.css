@@ -290,6 +290,10 @@ header.carousel .fill {
   color: #D7423C;
 }
 
+#footer p {
+  font-size: 1.4rem;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
