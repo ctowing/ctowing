@@ -107,7 +107,8 @@ body {
 
 #who-we-are {
   z-index: -1;
-  background: url(../img/rsz_ctow_snow.jpg) no-repeat 50% 0 fixed; 
+  background: url(../img/rsz_ctow_snow.jpg) fixed;
+  background-repeat: no-repeat;
   height: auto;  
   width: 100%; 
   position: relative; 
