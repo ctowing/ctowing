@@ -23,10 +23,11 @@ body {
 .image-bg-fluid-height {
   text-align: center;
   background-size: cover;
-  background: url('../img/map.jpg') no-repeat;
+  background: url('../img/map.jpg') no-repeat ;
   background-position: center;
   width: 100%;
-  padding-bottom: 170px;
+  height: 400px;
+  /*padding-bottom: 170px;*/
   margin-bottom: 45px;
   position: relative;
 }
@@ -155,7 +156,7 @@ body {
 }
 
 .title-header {
-  margin-top: 90px;
+  padding-top: 90px;
   /*margin-bottom: 20px;*/
   font-size: 40px;
   line-height: 50px;
