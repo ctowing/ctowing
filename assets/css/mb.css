@@ -22,16 +22,14 @@ body {
 */
 .image-bg-fluid-height {
   text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
-  background: url('../img/map.jpg') no-repeat center center scroll;
+  background: url('../img/map.jpg') no-repeat center;
+  width: 100%;
   padding-bottom: 170px;
   margin-bottom: 45px;
 }
 
-.image-bg-fluid-height-index {
+/*.image-bg-fluid-height-index {
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,7 +39,7 @@ body {
   padding-bottom: 170px;
   margin-bottom: 45px;
   width: 100%;
-}
+}*/
 
 .index-header {
   margin-top: 20px;
