@@ -1,0 +1,314 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.collapse-nav-button {
+  margin-top: 18px;
+}
+
+/*.image-bg-fluid-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+*/
+.image-bg-fluid-height {
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background: url('../img/map.jpg') no-repeat center center scroll;
+  padding-bottom: 170px;
+  margin-bottom: 45px;
+}
+
+.image-bg-fluid-height-index {
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background: url('../img/c_tow_back.jpg') no-repeat center center;
+  padding-bottom: 170px;
+  margin-bottom: 45px;
+  width: 100%;
+}
+
+.index-header {
+  margin-top: 20px;
+  z-index: -1;
+  background: url('../img/c_tow_back.jpg') no-repeat;
+  width: 100%;
+  height: 450px;
+  /*height: 100%;*/
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-overlay {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.panel-default .panel-heading {
+  background-color: #BB232C !important;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.office {
+  height: 172px;
+}
+
+.b-row {
+  margin-bottom: 55px;
+}
+
+.panel-body {
+  font-size: 1.6rem;
+}
+
+.services {
+  margin-bottom: 45px;
+}
+
+.home-overlay {
+  background-color: rgba(44, 62, 80, 0.3);
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+#who-we-are {
+  z-index: -1;
+  background: url(../img/rsz_ctow_snow.jpg) 50% 0 fixed; 
+  height: auto;  
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding-top: 70px;
+  margin-top: 50px;
+  padding-bottom: 140px;
+}
+
+#office {
+  text-decoration: underline;
+}
+
+.office-hours {
+  padding-bottom: -10px;
+  /*margin-top: 55px;*/
+}
+
+.hours {
+  padding-left: 20px;
+}
+
+.span4 {
+  margin-top: 40px;
+  opacity: 0.75;
+}
+
+#thank-you {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.intro {
+  /*margin-top: 55px;*/
+  margin-bottom: 50px;
+  /*text-transform: none;*/
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.who-we-are {
+  font-size: 2.2rem;
+  /*color: white;*/
+  margin-top: 10px;
+}
+
+.title-header {
+  margin-top: 90px;
+  /*margin-bottom: 20px;*/
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*text-transform: uppercase;*/
+}
+
+.title-header-who {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  /*text-transform: uppercase;*/
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: #D10218;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.intro-icons {
+  margin-bottom: 75px;
+  color: #BB232C;
+}
+
+.intro-icons h4{
+  color: #333333;
+}
+
+.center {
+  text-align: center;
+}
+
+.navbar {
+  min-height: 78px !important;
+  margin-bottom: 155px !important;
+  background-color: #fff;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.navbar li {
+  padding-top: 13px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.navbar-right-li {
+  padding-right: 20px
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.g-map {
+  padding-top: 50px;
+  float: right;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 75%;
+    padding-top: 25px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+    border-bottom: solid;
+    border-width: 1.5px;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+.head-icons {
+    font-size: 3.5em;
+}
+
+/****** FOOTER ******/
+#footer {
+  background: #222;
+  text-align: center;
+  padding: 10px 0;
+  color: #FFF;
+}
+
+#footer a {
+  font-size: 2.2em !important;
+  color: #D7423C;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    .who-we-are {
+      font-size: 1.5rem;
+      margin-top: 40px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
